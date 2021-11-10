@@ -6,13 +6,13 @@
 // Set number of circles in simulation.
 #define NUM_CIRCLES 1000
 
-// Container for 2D coordinates.
+// Struct containing 2D coordinates.
 struct Coordinate2D {
     short x;
     short y;
 };
 
-// Container for RGB values.
+// Struct containing RGB values.
 struct ColorRGB {
     unsigned char red;
     unsigned char green;
@@ -93,12 +93,12 @@ void updateCircles() {
     }
 }
 
-// Give acces to position array.
+// Give access to position array.
 struct Coordinate2D * getPosition() {
     return position;
 }
 
-// Give acces to color array.
+// Give access to color array.
 struct ColorRGB * getColor() {
     return color;
 }
